@@ -52,6 +52,15 @@ Object.recommend_movies_to_user(user_id: int, k:int)
 
 Please note model might take time to run so lower the no. of Epochs in base file content_model function for a quick summary. 
 
+# Refrences
+https://www.kaggle.com/robottums/hybrid-recommender-systems-with-surprise
+https://keras.io/examples/structured_data/collaborative_filtering_movielens/
+https://keras.io/examples/structured_data/collaborative_filtering_movielens/
+https://towardsdatascience.com/creating-a-hybrid-content-collaborative-movie-recommender-using-deep-learning-cc8b431618af
+https://blog.keras.io/building-autoencoders-in-keras.html#:~:text=To%20build%20an%20autoencoder%2C%20you,a%20%22loss%22%20function
+
+
+
  
  
  
