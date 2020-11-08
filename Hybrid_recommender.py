@@ -11,6 +11,8 @@ from keras.layers import Embedding, Input, dot, concatenate, Flatten
 from keras.models import Model
 from keras.optimizers import Adam
 from keras.callbacks import EarlyStopping
+
+form .recommender_system_base import RecommenderSystemBase
 class HybridRecommenderSystem(RecommenderSystemBase):
     """
     Attributes
