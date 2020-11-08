@@ -39,14 +39,15 @@ TO RUN
 Datast avilabe on https://www.kaggle.com/rounakbanik/the-movies-dataset
 download rattings, movies, keywords, credits in individual dataframes
 
+# HOW TO RUN HELP
 Object= HybridRecommenderSystem(rattings, movies, keywords, credits) 
-# in this order note all are data frames
+#in this order note all are data frames
 Object.recommend_similar_movies(movie_id: str, k:int)
 movie_id title as   and k no. of time 
 Object.get_movies_embeddings(movies:[str])
 input a list in which strings are there
 Object.recommend_movies_to_user(user_id: int, k:int)
-# userid for which to be recommended and No.
+#userid for which to be recommended and No.
 
 
 Please note model might take time to run so lower the no. of Epochs in base file content_model function for a quick summary. 
