@@ -25,20 +25,7 @@
  To run file please import all dependecies mentioned in file 
  '''
  
-import pandas
-import pandas as pd
-import ast
-import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.decomposition import TruncatedSVD
-import pickle
-import keras
-from keras import layers
-from keras.layers import Embedding, Input, dot, concatenate, Flatten
-from keras.models import Model
-from keras.optimizers import Adam
-from keras.callbacks import EarlyStopping
-'''
+
 
 
 TO RUN
