@@ -2,17 +2,23 @@
 
 
  The Class RecommenderSystemBase has the functions that create instance for the init:
+ 
  model for the neural network: collabrative Recommmender model (_collaborative_model), content Recommender model( _content_model)
+ 
  Embeddings: embeddings usinf tfidf(__create_dataframe_tfidf), Collabrative Filtering (_colab_rat_encoding.) 
+ 
  and creationof Data Frame (def __create_movies_dataframe) and cosine similarity (__cosine_similarity_matrix)
  
  
  This class is taken to input in our classe Hyper Recomender system Super__init__ hence all instances get created at time of creation of object.
  
  The Hyper_Recomender
- has 3 functions
+ has 3 functions:
+ 
  recommend_similar_movies : input is string that is tiltle(movie_id) in format (eg. ) and no. of recommended movies/content based approach 
+ 
  get_movies_embeddings  takes input a list contaning strings at each index that is title(movie_id) again in above format 
+ 
  recommend_movies_to_user  takes input as user if and no. of movies to recommend/ collabratie approach
  
  
