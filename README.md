@@ -25,7 +25,7 @@
  To run file please import all dependecies mentioned in file 
  '''
  
- import pandas
+import pandas
 import pandas as pd
 import ast
 import numpy as np
